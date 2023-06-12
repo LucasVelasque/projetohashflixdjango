@@ -96,9 +96,9 @@ WSGI_APPLICATION = 'hashflix.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'dpg-ci3ja0u7avj2t32ttdgg-a',
+        'HOST': 'postgres://meuteste_dbze_user:NntIBCaoGAMGAuhvtenL6ITzIJLqspmJ@dpg-ci3ja0u7avj2t32ttdgg-a/meuteste_dbze',
         'PORT': '5432',
-        'NAME': 'meuteste_dbze',
+        'NAME': 'meuteste',
         'USER': 'meuteste_dbze_user',
         'PASSWORD': 'NntIBCaoGAMGAuhvtenL6ITzIJLqspmJ',
 
