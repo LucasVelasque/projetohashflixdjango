@@ -85,10 +85,22 @@ WSGI_APPLICATION = 'hashflix.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'HOST': 'dpg-ci3ja0u7avj2t32ttdgg-a',
+        'PORT': '5432',
+        'NAME': 'meuteste_dbze',
+        'USER': 'meuteste_dbze_user',
+        'PASSWORD': 'NntIBCaoGAMGAuhvtenL6ITzIJLqspmJ',
+
     }
 }
 
